@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d3ffd1;
+    color: black;
+    padding: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+}
+
+.first {
+    background-color: #8ffd89;
+    padding: 40px;
+    text-align: center;
+    flex: auto;
+    height: 90vh; /*cubre toda la altura de la ventana*/
+    flex: 3;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    right: 20%; 
+    bottom: 20%;
+    overflow-y: auto;
+    border-radius: 20px;
+}
+
+.menu {
+
+}
